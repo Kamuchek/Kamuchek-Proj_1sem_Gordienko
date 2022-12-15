@@ -6,7 +6,7 @@ print("B = ",B)
 print()
 K = 1
 for i in range(A,B+1):
- for j in range(0,K):
- print(i,end=" ")
- print()
- K += 1
+    for j in range(0,K):
+        print(i,end=" ")
+    print()
+    K += 1
