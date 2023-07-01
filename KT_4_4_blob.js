@@ -1,11 +1,11 @@
 // Вариант 24: Создать одномерный массив на семь элементов. Найти удвоенную сумму элементов массива. Результат вывести в консоль.
-var array = [2, 4, 6, 8, 10, 12, 14];
-var sum = 0;
+let array = [2, 4, 6, 8, 10, 12, 14];
+let sum = 0;
 
-for (var i = 0; i < array.length; i++) {
+for (let i = 0; i < array.length; i++) {
     sum += array[i];
 }
 
-var doubledSum = sum * 2;
+let doubledSum = sum * 2;
 
 console.log("Удвоенная сумма элементов массива: " + doubledSum);
