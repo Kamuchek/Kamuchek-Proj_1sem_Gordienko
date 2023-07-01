@@ -5,13 +5,13 @@
     <title>Форма взаимодействия с пользователем</title>
     <script>
         function showWarning() {
-            var name = document.getElementById("name").value;
+            let name = document.getElementById("name").value;
             alert("Внимательно вводите свое имя, " + name + "!");
         }
 
         function showChoice() {
-            var iceCreamChecked = document.getElementById("iceCream").checked;
-            var chocolateChecked = document.getElementById("chocolate").checked;
+            let iceCreamChecked = document.getElementById("iceCream").checked;
+            let chocolateChecked = document.getElementById("chocolate").checked;
 
             if (iceCreamChecked && !chocolateChecked) {
                 alert("Вы выбрали мороженое!");
